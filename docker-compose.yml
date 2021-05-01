@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app:
+    build: ./app
+    volumes:
+      - ./app:/app
+    environment:
+      SELENIUM_URL: http://selenium:4444/wd/hub
+    tty: true
+
+  selenium:
+    image: selenium/standalone-firefox-debug
+    ports:
+      - 4444:4444
+      - 5900:5900
+    volumes:
+      - /dev/shm:/dev/shm
