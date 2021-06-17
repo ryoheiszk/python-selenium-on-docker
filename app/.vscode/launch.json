@@ -6,11 +6,7 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
-      "console": "integratedTerminal",
-      "args": [
-        "&&",
-        "exit"
-      ]
+      "console": "integratedTerminal"
     }
   ]
 }
