@@ -17,7 +17,7 @@ WindowsユーザならRealVNCで動作確認済み。
 
 - vnc クライアントは realVNC を使用
     - hostは localhost:5900 で
-    - password: "secret"
+    - 初期passwordは "secret"
 
 
 - [SeleniumIDE for firefox](https://addons.mozilla.org/ja/firefox/addon/selenium-ide/)を使用する
