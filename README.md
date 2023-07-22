@@ -6,6 +6,6 @@
 
 VSCodeユーザーなら、`.devcontainer/devcontainer.json`の通り`ms-vscode-remote.remote-containers`用の設定ができているため利用されたし。
 
-`vnc://localhost:5900`にてブラウザの表示を見ながらデバッグが可能。
+`vnc://localhost:5901`にてブラウザの表示を見ながらデバッグが可能。
 
 WindowsユーザならRealVNCで動作確認済み。
