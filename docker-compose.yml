@@ -4,7 +4,7 @@ services:
     image: selenium/standalone-firefox-debug:3.141.59
     ports:
       - 4444:4444
-      - 5900:5900
+      - 5901:5900
     volumes:
       - /dev/shm:/dev/shm
   app:
